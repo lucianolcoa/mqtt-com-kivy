@@ -91,7 +91,7 @@ class Telasensor(Screen):
            self.mqtt=False
    def on_connect(self,client, userdata, flags, rc):
     
-    client.subscribe("EMCOL/#")
+    client.subscribe("xxxx/#")
 
    def on_message(self,client, userdata, msg):
     print (msg.payload) 
