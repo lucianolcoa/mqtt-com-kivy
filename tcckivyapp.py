@@ -111,11 +111,11 @@ class Telasensor(Screen):
            self.client = mqtt.Client()
            
 
-           self.client.username_pw_set("ouccoeks", password="F-vr8zrNgD7q")
+           self.client.username_pw_set("xxxx", password="xxxxx")
 
-           self.client.connect("m14.cloudmqtt.com",11558, 60)
-           #b=subscribe.simple("EMCOL", hostname="m14.cloudmqtt.com",port=11558,client_id="luciano",
-                      # auth= {'username':"ouccoeks", 'password':"F-vr8zrNgD7q"} )
+           self.client.connect("xxxxx",xxxxxxx, 60)
+           #b=subscribe.simple("xxxxL", hostname="mxxxxxm",port=xxxx,client_id="luciano",
+                      # auth= {'username':"xxxxx", 'password':"xxxxxx"} )
            #self.dadossensores=str(b.payload)
            #self.dadossensores=self.dadossensores.split(',')
            
